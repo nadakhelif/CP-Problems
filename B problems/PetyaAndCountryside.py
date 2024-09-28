@@ -22,6 +22,4 @@ def max_watered_sections(n, heights):
 
 n = int(input())  
 heights = list(map(int, input().split())) 
-
-# Output the result
 max_watered_sections(n, heights)
