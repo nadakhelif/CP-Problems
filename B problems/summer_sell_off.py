@@ -15,6 +15,4 @@ for i in range(n):
     else:
         s+=min(2*(l[i][0]),l[i][1])
     n-=1
-print(s)        
- 
- 
+print(s) 
