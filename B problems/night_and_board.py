@@ -22,7 +22,7 @@ def bfs(a, b, n):
                 visited.add((nx, ny))
                 queue.append((nx, ny, moves + 1))
     
-    return -1  # If not possible to reach (n-1, n-1)
+    return -1  
 
 def solve_knightl(n):
     results = []
